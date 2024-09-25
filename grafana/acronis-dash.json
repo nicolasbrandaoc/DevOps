@@ -1,0 +1,406 @@
+{
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": {
+            "type": "grafana",
+            "uid": "-- Grafana --"
+          },
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations & Alerts",
+          "type": "dashboard"
+        }
+      ]
+    },
+    "editable": true,
+    "fiscalYearStartMonth": 0,
+    "graphTooltip": 0,
+    "id": 6,
+    "links": [],
+    "panels": [
+      {
+        "datasource": {
+          "default": false,
+          "type": "grafana-googlesheets-datasource",
+          "uid": "cdy6p5xoqaqrka"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "mappings": [],
+            "thresholds": {
+              "mode": "percentage",
+              "steps": [
+                {
+                  "color": "dark-blue",
+                  "value": null
+                },
+                {
+                  "color": "light-blue",
+                  "value": 70
+                },
+                {
+                  "color": "super-light-blue",
+                  "value": 85
+                }
+              ]
+            },
+            "unit": "decgbytes"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 7,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "id": 5,
+        "options": {
+          "minVizHeight": 75,
+          "minVizWidth": 75,
+          "orientation": "auto",
+          "reduceOptions": {
+            "calcs": [
+              "lastNotNull"
+            ],
+            "fields": "",
+            "values": false
+          },
+          "showThresholdLabels": false,
+          "showThresholdMarkers": true,
+          "sizing": "auto"
+        },
+        "pluginVersion": "11.2.0",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "grafana-googlesheets-datasource",
+              "uid": "cdy6p5xoqaqrka"
+            },
+            "range": "A12:C15",
+            "refId": "A",
+            "spreadsheet": "1ghO2_Cpl8t284J1mrIHdML1UjM28VHhYuiT3z92-hKc"
+          }
+        ],
+        "title": "CONSUMO DATA CENTER",
+        "type": "gauge"
+      },
+      {
+        "datasource": {
+          "default": false,
+          "type": "grafana-googlesheets-datasource",
+          "uid": "cdy6p5xoqaqrka"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "mappings": [],
+            "thresholds": {
+              "mode": "percentage",
+              "steps": [
+                {
+                  "color": "super-light-blue",
+                  "value": null
+                },
+                {
+                  "color": "blue",
+                  "value": 70
+                },
+                {
+                  "color": "dark-blue",
+                  "value": 85
+                }
+              ]
+            }
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 7,
+          "w": 12,
+          "x": 12,
+          "y": 0
+        },
+        "id": 4,
+        "options": {
+          "minVizHeight": 75,
+          "minVizWidth": 75,
+          "orientation": "auto",
+          "reduceOptions": {
+            "calcs": [
+              "lastNotNull"
+            ],
+            "fields": "",
+            "values": false
+          },
+          "showThresholdLabels": false,
+          "showThresholdMarkers": false,
+          "sizing": "auto"
+        },
+        "pluginVersion": "11.2.0",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "grafana-googlesheets-datasource",
+              "uid": "cdy6p5xoqaqrka"
+            },
+            "range": "K12:M15",
+            "refId": "A",
+            "spreadsheet": "1ghO2_Cpl8t284J1mrIHdML1UjM28VHhYuiT3z92-hKc"
+          }
+        ],
+        "title": "MIGRAÇÕES PENDENTES ",
+        "type": "gauge"
+      },
+      {
+        "datasource": {
+          "default": false,
+          "type": "grafana-googlesheets-datasource",
+          "uid": "cdy6p5xoqaqrka"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "mappings": [],
+            "thresholds": {
+              "mode": "percentage",
+              "steps": [
+                {
+                  "color": "super-light-blue",
+                  "value": null
+                },
+                {
+                  "color": "blue",
+                  "value": 70
+                },
+                {
+                  "color": "dark-blue",
+                  "value": 85
+                }
+              ]
+            }
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 6,
+          "w": 12,
+          "x": 0,
+          "y": 7
+        },
+        "id": 3,
+        "options": {
+          "minVizHeight": 75,
+          "minVizWidth": 75,
+          "orientation": "auto",
+          "reduceOptions": {
+            "calcs": [
+              "lastNotNull"
+            ],
+            "fields": "",
+            "values": false
+          },
+          "showThresholdLabels": false,
+          "showThresholdMarkers": false,
+          "sizing": "auto"
+        },
+        "pluginVersion": "11.2.0",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "grafana-googlesheets-datasource",
+              "uid": "cdy6p5xoqaqrka"
+            },
+            "range": "H12:I15",
+            "refId": "A",
+            "spreadsheet": "1ghO2_Cpl8t284J1mrIHdML1UjM28VHhYuiT3z92-hKc"
+          }
+        ],
+        "title": "PROBLEMAS DE BACKUP",
+        "type": "gauge"
+      },
+      {
+        "datasource": {
+          "default": false,
+          "type": "grafana-googlesheets-datasource",
+          "uid": "cdy6p5xoqaqrka"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "mappings": [],
+            "thresholds": {
+              "mode": "percentage",
+              "steps": [
+                {
+                  "color": "super-light-blue",
+                  "value": null
+                },
+                {
+                  "color": "blue",
+                  "value": 70
+                },
+                {
+                  "color": "dark-blue",
+                  "value": 85
+                }
+              ]
+            }
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 6,
+          "w": 12,
+          "x": 12,
+          "y": 7
+        },
+        "id": 2,
+        "options": {
+          "minVizHeight": 75,
+          "minVizWidth": 75,
+          "orientation": "auto",
+          "reduceOptions": {
+            "calcs": [
+              "lastNotNull"
+            ],
+            "fields": "",
+            "values": false
+          },
+          "showThresholdLabels": false,
+          "showThresholdMarkers": false,
+          "sizing": "auto"
+        },
+        "pluginVersion": "11.2.0",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "grafana-googlesheets-datasource",
+              "uid": "cdy6p5xoqaqrka"
+            },
+            "range": "E12:F15",
+            "refId": "A",
+            "spreadsheet": "1ghO2_Cpl8t284J1mrIHdML1UjM28VHhYuiT3z92-hKc"
+          }
+        ],
+        "title": "QUANTIDADE DE CLIENTES",
+        "type": "gauge"
+      },
+      {
+        "datasource": {
+          "default": false,
+          "type": "grafana-googlesheets-datasource",
+          "uid": "cdy6p5xoqaqrka"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "custom": {
+              "axisBorderShow": false,
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "fillOpacity": 80,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "lineWidth": 1,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "super-light-blue",
+                  "value": null
+                },
+                {
+                  "color": "blue",
+                  "value": 71.999
+                },
+                {
+                  "color": "dark-blue",
+                  "value": 89.999
+                }
+              ]
+            },
+            "unit": "decgbytes"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 9,
+          "w": 24,
+          "x": 0,
+          "y": 13
+        },
+        "id": 1,
+        "options": {
+          "barRadius": 0,
+          "barWidth": 0.97,
+          "fullHighlight": false,
+          "groupWidth": 0.7,
+          "legend": {
+            "calcs": [],
+            "displayMode": "list",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "orientation": "auto",
+          "showValue": "auto",
+          "stacking": "none",
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "xTickLabelRotation": 0,
+          "xTickLabelSpacing": 0
+        },
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "grafana-googlesheets-datasource",
+              "uid": "cdy6p5xoqaqrka"
+            },
+            "range": "A12:C20",
+            "refId": "A",
+            "spreadsheet": "1ghO2_Cpl8t284J1mrIHdML1UjM28VHhYuiT3z92-hKc"
+          }
+        ],
+        "title": "CONSUMO MENSAL DATA CENTER",
+        "type": "barchart"
+      }
+    ],
+    "schemaVersion": 39,
+    "tags": [],
+    "templating": {
+      "list": []
+    },
+    "time": {
+      "from": "now-6h",
+      "to": "now"
+    },
+    "timepicker": {},
+    "timezone": "browser",
+    "title": "ACRONIS",
+    "uid": "ddy6pw7u4q0aoe",
+    "version": 2,
+    "weekStart": ""
+  }
