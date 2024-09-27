@@ -121,7 +121,7 @@ linha_remover=$linha_pesquisa'd';
 
 
 sed -i "$linha_remover" /etc/csf/csf.conf;
-sed -i "$linha_pesquisa iTCP_IN = \"80,443,7770:7800,8443,10050,44445,55556,9988,9090"\" /etc/csf/csf.conf;
+sed -i "$linha_pesquisa iTCP_IN = \"80,443,5433,7770:7800,8443,10050,44445,55556,9988,9090"\" /etc/csf/csf.conf;
 
 csf -r
 
