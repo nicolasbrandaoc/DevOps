@@ -6,6 +6,15 @@
 #GitHub: nicolasbrandaoc
 
 
+
+echo "         __               __                 __                            __ ";
+echo " .-----.|__|.----..-----.|  |.---.-..-----. |  |--..----..---.-..-----..--|  |.---.-..-----. ";
+echo " |     ||  ||  __||  _  ||  ||  _  ||__ --| |  _  ||   _||  _  ||     ||  _  ||  _  ||  _  | ";
+echo " |__|__||__||____||_____||__||___._||_____| |_____||__|  |___._||__|__||_____||___._||_____| ";
+
+
+
+
 #Coloque permissão "chmod +x" para executar o bash!
 
 # Verificar se o usuário está na pasta 'home'
@@ -62,6 +71,8 @@ sleep 2
 
 # Finalizar a instalação
 echo "Instalação do WordPress concluída. Siga as instruções na interface web para finalizar a instalação."
+
+
 
 
 
