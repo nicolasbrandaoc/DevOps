@@ -34,3 +34,9 @@ echo "Alterações aplicadas e Grafana reiniciado."
 https://suporte-files.brasilcloud.net/index.php/s/Oj8YhpPUZCiv0c5/download
 
 
+
+
+100 - ((node_filesystem_avail_bytes{instance="$node",job="$job",device!~'rootfs'} * 100) / node_filesystem_size_bytes{instance="$node",job="$job",device!~'rootfs'})
+
+
+
