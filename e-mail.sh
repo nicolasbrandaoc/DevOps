@@ -9,4 +9,7 @@ SMTP	2525	NO
 		
 POP3	110	NO
 POP3	995	SSL/TLS
-		
+
+
+
+docker run --rm -it -p 4444:4444 -p 8080:8080 metasploitframework/metasploit-framework
