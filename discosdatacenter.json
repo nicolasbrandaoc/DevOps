@@ -1,0 +1,42 @@
+{
+    "lista": [
+      {
+        "disksizeusedgb": "6776.42 GB",
+        "disksizetotalgb": "7167.99 GB (x1.0)",
+        "disksizeallocatedgb": "6790.17 GB",
+        "disksizeunallocatedgb": "377.82 GB",
+        "storageusagethreshold": false,
+        "storageusagedisablethreshold": false,
+        "storageallocatedthreshold": false,
+        "storageallocateddisablethreshold": false,
+        "id": "P-SSD1",
+        "zoneid": "9955907f-be21-4bd4-b833-2e262121e88a",
+        "zonename": "UDI1",
+        "podid": "ce6b3d83-7749-4289-9c2f-27b911e38fba",
+        "podname": "POD1",
+        "name": "P-SSD1",
+        "ipaddress": "localhost",
+        "path": "/P-SSD1",
+        "created": "2024-02-20T16:52:58-0300",
+        "type": "PreSetup",
+        "clusterid": "7dc3b587-7af4-4c27-945e-de2dc78af44d",
+        "clustername": "POOL3",
+        "disksizetotal": 7696568811520,
+        "disksizeallocated": 7290887340032,
+        "disksizeused": 7276127584256,
+        "istagarule": false,
+        "state": "Up",
+        "scope": "CLUSTER",
+        "overprovisionfactor": "1.0",
+        "hypervisor": "XenServer",
+        "provider": "DefaultPrimary",
+        "storagecapabilities": {
+          "VOLUME_SNAPSHOT_QUIESCEVM": "false"
+        },
+        "hasannotations": false
+      }
+    ]
+  }
+
+
+  https://cloudstack-admin.brasilwork.net/api/relatorio-espaco-storage/?id=P-SSD1
